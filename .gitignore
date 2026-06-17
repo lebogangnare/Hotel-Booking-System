@@ -1,0 +1,24 @@
+# Maven
+/target/
+
+# IDEs
+*.iml
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build directories
+/build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
