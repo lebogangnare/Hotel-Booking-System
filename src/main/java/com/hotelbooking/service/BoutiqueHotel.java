@@ -1,15 +1,9 @@
 package com.hotelbooking.service;
 
-import com.hotelbooking.model.Booking;
-
 public class BoutiqueHotel extends Hotel {
-
-    public BoutiqueHotel(String hotelName) {
-        super(hotelName);
-    }
-
+    // TODO: implement BoutiqueHotel checkIn behavior
     @Override
-    protected void checkIn(Booking booking) {
-        System.out.println(getClass().getSimpleName() + " — Welcome, " + booking.guestName() + "! Your " + booking.room().roomNumber() + " has been personally prepared for your " + booking.nights() + "-night stay.");
+    protected void checkIn(com.hotelbooking.model.Booking booking) {
+        // TODO: implement boutique hotel check-in
     }
 }

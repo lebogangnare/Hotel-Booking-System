@@ -1,15 +1,9 @@
 package com.hotelbooking.service;
 
-import com.hotelbooking.model.Booking;
-
 public class ChainHotel extends Hotel {
-
-    public ChainHotel(String hotelName) {
-        super(hotelName);
-    }
-
+    // TODO: implement ChainHotel checkIn behavior
     @Override
-    protected void checkIn(Booking booking) {
-        System.out.println(getClass().getSimpleName() + " — Booking #" + booking.bookingId() + " confirmed for " + booking.guestName() + ". Room " + booking.room().roomNumber() + " assigned for " + booking.nights() + " night(s). Total: R" + booking.totalCost() + ".");
+    protected void checkIn(com.hotelbooking.model.Booking booking) {
+        // TODO: implement chain hotel check-in
     }
 }
